@@ -1,0 +1,1 @@
+$(document).ready(function(){function e(e){$("#"+e).focus()}if(document.getElementById("secondFactorForm")||document.getElementById("verifyPhoneForm")){e(document.getElementById("smsCode")?"smsCode":"j_otpcode")}else $("form").find("*").filter(":input:visible:first").focus()});
