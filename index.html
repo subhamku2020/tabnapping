@@ -1,10 +1,9 @@
 <html>
  <body>
   test
-  <script>
-   if (window.opener) {
-     window.opener.location = "https://phish.example.com";
-   }
-  </script>
+ <script>
+	const url='https://google.com';
+	setTimeout(() => { window.location.replace(url); }, 4000);
+</script>
  </body>
 </html>
