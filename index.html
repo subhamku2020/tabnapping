@@ -1,11 +1,9 @@
 <html>
  <body>
   test
-  <script>alert(12)</script>
-  <script>alert(document.cookie)</script>
   <script>
-   #if (window.opener) {
-     # window.opener.location = "https://phish.example.com";
+   if (window.opener) {
+     window.opener.location = "https://phish.example.com";
    }
   </script>
  </body>
