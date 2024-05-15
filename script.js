@@ -1,1 +1,3 @@
-alert('1');
+var code = "console.log('Hello, world!');";
+eval(code);
+
